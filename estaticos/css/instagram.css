@@ -1,0 +1,62 @@
+body {
+	background-color: #ededed;
+}
+
+#instagram-logo {
+	font-family: cursive;
+	font-size: 2em;
+}
+
+#conteudo{
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#botao-login {
+    background-color: blue;
+    color: white;
+}
+
+.caixa-branca {
+	background-color: white;
+}
+
+
+.elementos-centralizados {
+	display: flex;
+     align-items: center;
+     flex-direction: column;
+}
+
+.margem-inferior {
+	margin-bottom: 20px;
+}
+
+.elemento-com-borda {
+	border: 1px solid lightgray;
+}
+
+#botoes-apple-google {
+	max-width: 100%;
+}
+
+
+@media (max-width: 768px) {
+	#celular {
+		display: none;
+	}
+	
+	#coluna-direita {
+		max-width: 90%;
+	}
+	
+	body {
+		background-color: white;
+	}
+	
+	.elemento-com-borda {
+		border: none;
+	}
+
+}
